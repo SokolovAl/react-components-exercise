@@ -1,8 +1,15 @@
+import React from "react";
 import Spam from "./Spam";
-import React, { Component } from 'react';
 
+const Spamalot = () => {
+    const numberOfSpamItems = 500;
+    const spams = Array.from({length: numberOfSpamItems}, (_, index) => <Spam key={index}/>);
 
-const Spamalot =()=>{}
+    return (
+        <div id="ex-2">
+            {spams}
+        </div>
+    );
+};
 
-export default Spamalot
-
+export default Spamalot;

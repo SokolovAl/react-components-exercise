@@ -1,5 +1,11 @@
-import React, { Component } from 'react';
+import React from "react";
 
-const Spam =()=>{}
+const Spam = () => {
+    return (
+        <div>
+            Spam
+        </div>
+    );
+};
 
-export default Spam
+export default Spam;

@@ -1,6 +1,13 @@
+import React from "react";
 import Item from "./Item";
-import React, { Component } from 'react';
 
+const Menu = () => {
+    return (
+        <div>
+            <div>Menu Component</div>
+            <Item/>
+        </div>
+    );
+};
 
-const Menu = () => {}
-export default Menu
+export default Menu;
